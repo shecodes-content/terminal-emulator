@@ -1,0 +1,25 @@
+{
+  "name": "terminal-emulator",
+  "version": "1.2.0",
+  "description": "where modern terminal emulators come from",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "brain": {
+    "track": "black",
+    "provides": [
+      "terminal-emulator"
+    ],
+    "requires": [
+      "video-terminal",
+      "tty"
+    ],
+    "bundler": {
+      "name": "bpm-bundle",
+      "version": "1.2.0"
+    }
+  },
+  "author": "Jan Bölsche <jan@lagomorph.de> (http://regular.codes)",
+  "license": "CC-SA-BY-3.0"
+}
